@@ -2,7 +2,9 @@
   "name": "portuasviagens",
   "version": "1.1.0",
   "private": false,
-  "homepage": "https://gabrielferreiracosta.github.io/Portuasviagens/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gabrielferreiracosta/Portuasviagens.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
