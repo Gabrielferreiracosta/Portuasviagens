@@ -4,7 +4,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gabrielferreiracosta/Portuasviagens"
+    "url": "https://gabrielferreiracosta.github.io/Portuasviagens/"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
