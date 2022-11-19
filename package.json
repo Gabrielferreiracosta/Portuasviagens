@@ -1,7 +1,8 @@
 {
   "name": "portuasviagens",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.1.0",
+  "private": false,
+  "homepage": "https://gabrielferreiracosta.github.io/Portuasviagens/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -12,6 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "dev": "nodemon ./src/index",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
