@@ -90,7 +90,6 @@ function App() {
           <Primeiro></Primeiro>
           <Second></Second>
           <Third></Third>
-          
       </div>
   
     
