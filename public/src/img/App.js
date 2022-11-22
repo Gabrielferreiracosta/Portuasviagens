@@ -26,7 +26,7 @@ function App() {
                       </p>
                       <div className='flex justify-center items-center flex-grow-0 flex-shrink-0 w-40 h-4 relative gap-2.5'>
                         <p className='flex-grow-0 flex-shrink-0 w-[450px] text-[12px] font-Roboto text-center text-[#9de8ff]/70'>
-                          Compartilhando experiências de viagem com muita informação e descontração
+                          " Compartilhando experiências de viagem com muita informação e descontração "
                         </p>
                       </div>
                     </div>
@@ -51,7 +51,7 @@ function App() {
                           d="M5.625 10.5H4.625V11.5V17.5H1V7.03518L9 1.70185L17 7.03518V17.5H13.375V11.5V10.5H12.375H5.625Z"
                           stroke="white"
                           strokeWidth="2"
-                          
+                          strokeLineCap="round"
                         ></path>
                       </svg>
                     </button>
