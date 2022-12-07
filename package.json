@@ -2,10 +2,7 @@
   "name": "portuasviagens",
   "version": "1.1.0",
   "private": false,
-  "repository": {
-    "type": "git",
-    "homepage": "https://gabrielferreiracosta.github.io/Portuasviagens/"
-  },
+  "homepage": "https://gabrielferreiracosta.github.io/Portuasviagens/",
   "dependencies": {
     "@babel/runtime": "^7.20.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,23 +11,16 @@
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^2.1.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "server": "nodemon ./src/index",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -50,9 +40,7 @@
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
     "autoprefixer": "^10.4.13",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^8.28.0",
-    "eslint-plugin-react": "^7.31.11",
+    "babel-eslint": "^9.0.0",
     "postcss": "^8.4.19",
     "tailwindcss": "^3.2.4"
   }
