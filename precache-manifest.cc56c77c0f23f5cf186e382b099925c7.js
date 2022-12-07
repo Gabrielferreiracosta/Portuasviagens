@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c608504800c77afb0f27",
+    "revision": "8819d519a8bc099a86c6",
     "url": "/Portuasviagens/static/css/main.a2f1fce2.chunk.css"
   },
   {
-    "revision": "c608504800c77afb0f27",
-    "url": "/Portuasviagens/static/js/main.6c31eecf.chunk.js"
+    "revision": "8819d519a8bc099a86c6",
+    "url": "/Portuasviagens/static/js/main.e7fa57a8.chunk.js"
   },
   {
     "revision": "3d11dea34e7cf3ab48a0",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/Portuasviagens/static/js/2.b5747810.chunk.js"
   },
   {
-    "revision": "1dba53db71a42ffa92a453d16ab68d9b",
+    "revision": "8bc0d340ede78b0d78a435d0f4724e25",
     "url": "/Portuasviagens/index.html"
   }
 ];
