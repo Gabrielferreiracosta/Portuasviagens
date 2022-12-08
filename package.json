@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:css": "tailwind build src/App.css -o src/index.css",
+    "watch:css": "chokidar 'src/App.css' -c 'npm run build:css'"
   },
   "browserslist": {
     "production": [
@@ -42,6 +44,8 @@
     "autoprefixer": "^10.4.13",
     "babel-eslint": "^9.0.0",
     "postcss": "^8.4.19",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.0.1",
     "tailwindcss": "^3.2.4"
   }
 }
