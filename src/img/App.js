@@ -2,7 +2,8 @@ import React from 'react';
 import Primeiro from './components/primeiro';
 import Second from './components/second';
 import Third from './components/Third';
-import './index.css';
+import './global.css';
+
 
 function App() {
   return (
