@@ -13,7 +13,7 @@ function Menu() {
                   </p>
                   <div className='flex justify-center items-center flex-grow-0 flex-shrink-0 w-40 h-4 relative gap-2.5'>
                     <p className='flex-grow-0 flex-shrink-0 w-[450px] text-[12px] font-Roboto text-center text-[#9de8ff]/70'>
-                      " Compartilhando experiências de viagem com muita informação e descontração "
+                      Compartilhando experiências de viagem com muita informação e descontração
                     </p>
                   </div>
                 </div>
@@ -21,7 +21,6 @@ function Menu() {
                   <img alt="Mascote-Portuasviagens" src="./img/mascote---logo-1.png" className='w-[136px] h-[147px] absolute left-[519.5px] top-[-0.5px] object-cover'/>
                 </div>
               </div>
-              {/* MENU */}
               <div className='flex justify-center font-Anton items-center flex-grow-0 flex-shrink-0 gap-2.5'>
                 <button id="home-btn" aria-label="home-btn" className='flex justify-center items-center flex-grow-0 flex-shrink-0 w-[100px] h-[35px] relative gap-5 px-5 hover:bg-cyan-200/50'>
                   <svg
@@ -75,6 +74,6 @@ function Menu() {
     )
 }
 
-export default Menu()
+export default Menu
 
 
