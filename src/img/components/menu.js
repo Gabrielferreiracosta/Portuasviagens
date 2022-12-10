@@ -1,5 +1,6 @@
 import React from "react"
-import './global.css';
+import './public/src\img/components/global.css';
+
 
 function Menu() {
     return (
@@ -34,8 +35,7 @@ function Menu() {
                     <path
                       d="M5.625 10.5H4.625V11.5V17.5H1V7.03518L9 1.70185L17 7.03518V17.5H13.375V11.5V10.5H12.375H5.625Z"
                       stroke="white"
-                      strokeWidth="2"
-                      strokeLineCap="round">
+                      strokeWidth="2">
                     </path>
                   </svg>
                 </button>

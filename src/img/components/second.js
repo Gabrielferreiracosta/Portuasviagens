@@ -1,5 +1,5 @@
 import React from "react"
-import './global.css';
+import './public/src\img/components/global.css';
 
 function Second() {
     return (

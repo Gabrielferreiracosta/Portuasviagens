@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Portuasviagens/precache-manifest.57764fa57a28aac4de6d2438f4a21441.js"
+  "/Portuasviagens/precache-manifest.7a642d4d37098c50f6b3eac683d0e76a.js"
 );
 
 workbox.clientsClaim();
