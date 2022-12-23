@@ -3,7 +3,7 @@ import Menu from './components/menu';
 import Primeiro from './components/primeiro';
 import Second from './components/second';
 import Third from './components/Third';
-import './public/src\img/components/global.css';
+import './public/src/components/global.css';
 
 
 function App() {

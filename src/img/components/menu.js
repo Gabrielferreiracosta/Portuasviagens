@@ -1,5 +1,5 @@
 import React from "react"
-import './public/src\img/components/global.css';
+import './public/src/components/global.css';
 
 
 function Menu() {
