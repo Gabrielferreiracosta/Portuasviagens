@@ -1,13 +1,13 @@
 {
-  "files": {
-    "main.css": "/Portuasviagens/static/css/main.168225e0.css",
-    "main.js": "/Portuasviagens/static/js/main.2b4b58f6.js",
-    "index.html": "/Portuasviagens/index.html",
-    "main.168225e0.css.map": "/Portuasviagens/static/css/main.168225e0.css.map",
-    "main.2b4b58f6.js.map": "/Portuasviagens/static/js/main.2b4b58f6.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.168225e0.css",
-    "static/js/main.2b4b58f6.js"
-  ]
+  "main.css": "/Portuasviagens/static/css/main.2fde8b34.chunk.css",
+  "main.js": "/Portuasviagens/static/js/main.521ed796.chunk.js",
+  "main.js.map": "/Portuasviagens/static/js/main.521ed796.chunk.js.map",
+  "runtime~main.js": "/Portuasviagens/static/js/runtime~main.92f03fdc.js",
+  "runtime~main.js.map": "/Portuasviagens/static/js/runtime~main.92f03fdc.js.map",
+  "static/js/2.6ef72dbe.chunk.js": "/Portuasviagens/static/js/2.6ef72dbe.chunk.js",
+  "static/js/2.6ef72dbe.chunk.js.map": "/Portuasviagens/static/js/2.6ef72dbe.chunk.js.map",
+  "index.html": "/Portuasviagens/index.html",
+  "precache-manifest.e7cf7d39aa6932d38e37fd13f95db34d.js": "/Portuasviagens/precache-manifest.e7cf7d39aa6932d38e37fd13f95db34d.js",
+  "service-worker.js": "/Portuasviagens/service-worker.js",
+  "static/css/main.2fde8b34.chunk.css.map": "/Portuasviagens/static/css/main.2fde8b34.chunk.css.map"
 }

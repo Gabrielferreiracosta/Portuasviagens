@@ -1,5 +1,5 @@
 import React from "react"
-import './public/src/components/global.css';
+import './global.css';
 
 function Primeiro() {
     return (
