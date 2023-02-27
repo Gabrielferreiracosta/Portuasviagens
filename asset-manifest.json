@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Portuasviagens/static/css/main.168225e0.css",
-    "main.js": "/Portuasviagens/static/js/main.d81f8376.js",
+    "main.js": "/Portuasviagens/static/js/main.2b4b58f6.js",
     "index.html": "/Portuasviagens/index.html",
     "main.168225e0.css.map": "/Portuasviagens/static/css/main.168225e0.css.map",
-    "main.d81f8376.js.map": "/Portuasviagens/static/js/main.d81f8376.js.map"
+    "main.2b4b58f6.js.map": "/Portuasviagens/static/js/main.2b4b58f6.js.map"
   },
   "entrypoints": [
     "static/css/main.168225e0.css",
-    "static/js/main.d81f8376.js"
+    "static/js/main.2b4b58f6.js"
   ]
 }
