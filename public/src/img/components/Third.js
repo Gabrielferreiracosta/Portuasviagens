@@ -12,7 +12,7 @@ function Third() {
              <div>
                <p className='flex-grow-0 flex-shrink-0 w-[469px] font-regular text-left text-white'>
                  <span className='flex-grow-0 flex-shrink-0 w-[469px] text-base font-regular text-left text-white'>
-                  Quando começamos o canal nosso objetivo era apenas compartilhar experiências e dicas para
+                    Quando começamos o canal nosso objetivo era apenas compartilhar experiências e dicas para
                    ajudar nossos amigos em suas viagens.
                  </span>
                  <br /><br />
@@ -36,7 +36,7 @@ function Third() {
     )
 }
 
-export default Third;
+export default Third
 
 
 

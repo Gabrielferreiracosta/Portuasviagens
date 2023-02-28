@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  max-width:  1440px;
+ 
+}
+

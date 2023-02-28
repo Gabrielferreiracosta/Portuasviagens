@@ -1,0 +1,3 @@
+[submodule "path_to_submodule"] 
+  path = /Portuasviagens/
+  url = git://github.com/Gabrielferreiracosta/Portuasviagens

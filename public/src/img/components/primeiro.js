@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import './global.css';
 
 function Primeiro() {
@@ -25,6 +25,7 @@ function Primeiro() {
                         Itália.
                     </span>
                     <br />
+
                     <br />
                     <span className='flex-grow-0 flex-shrink-0 w-[469px] text-base font-regular text-left text-white'>
                         Assim sigo contando além de países (são ao todo 17) memórias, experiências e muitos
@@ -40,7 +41,7 @@ function Primeiro() {
     )
 }
 
-export default Primeiro;
+export default Primeiro
 
 
 
