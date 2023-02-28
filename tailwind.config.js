@@ -1,7 +1,19 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
-  content: ['./index.html','./src/App.js', 
-    './src/**/*.tsx', './src/**/*.js'],
+  content: ['./index.html',
+  './src/App.js',
+  './src/index.css',
+  './src/**/*.tsx',
+  './src/**/*.ts',  
+  './src/*.js',
+  './src/**/*.jsx',
+  './src/*.css',
+  './public/index.html',
+  './public/index.css',
+  './public/index.js',
+  './public/App.js',
+ ],
   theme: {
     screens: {
       'sm': {'max': '639px'},
@@ -60,5 +72,9 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/base'),
+    require('@tailwindcss/components'),
+    require('@tailwindcss/utilities'),
+  ],
 }

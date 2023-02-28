@@ -3,12 +3,6 @@
 @tailwind utilities;
 
 
-body {
-  background-color: #1A1C47;
-  margin: auto;
-  
-}
-
 #root {
   align-items: center;
   justify-items: center;

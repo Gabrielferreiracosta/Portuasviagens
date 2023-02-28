@@ -2,11 +2,9 @@
   "name": "portuasviagens",
   "version": "1.1.0",
   "private": false,
-  "repository": {
-    "type": "git",
-    "homepage": "https://gabrielferreiracosta.github.io/Portuasviagens/"
-  },
+  "homepage": "https://gabrielferreiracosta.github.io/Portuasviagens/",
   "dependencies": {
+    "@babel/runtime": "^7.20.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -14,24 +12,27 @@
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1",
     "style-loader": "^3.3.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "dev": "nodemon ./src/index",
+=======
+    "react-scripts": "^2.1.8",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+>>>>>>> f0b4bc30236434242432f277ce63f36c88fd6972
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "eject": "react-scripts eject",
+    "build:css": "tailwind build src/App.css -o src/index.css",
+    "watch:css": "chokidar 'src/App.css' -c 'npm run build:css'"
   },
   "browserslist": {
     "production": [
@@ -46,8 +47,19 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
     "autoprefixer": "^10.4.13",
+    "babel-eslint": "^9.0.0",
     "postcss": "^8.4.19",
+<<<<<<< HEAD
     "tailwindcss": "^3.2.7"
+=======
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.0.1",
+    "tailwindcss": "^3.2.4"
+>>>>>>> f0b4bc30236434242432f277ce63f36c88fd6972
   }
 }
