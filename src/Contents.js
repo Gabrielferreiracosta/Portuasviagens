@@ -36,7 +36,7 @@ function Contents() {
               </div>
                     {/* MENU */}
               <div className='flex justify-center font-Anton items-center flex-grow-0 flex-shrink-0 gap-2.5' >
-                <Link to="/" path="./Home">
+                <Link to="/home" path="./Home">
                 <button id="home-btn" aria-label="home-btn" className='flex justify-center items-center flex-grow-0 flex-shrink-0 w-[100px] h-[35px] relative gap-5 px-5 hover:bg-cyan-200/50'>
                   <svg
                     width="18"
