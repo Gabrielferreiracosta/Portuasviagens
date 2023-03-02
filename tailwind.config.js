@@ -72,9 +72,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/base'),
-    require('@tailwindcss/components'),
-    require('@tailwindcss/utilities'),
-  ],
+  plugins: [],
 }

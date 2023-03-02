@@ -2,7 +2,7 @@
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html', './src/App.js', './src/index.css', './src/global.css', './src/**/*.tsx', './src/**/*.ts', './src/*.js', './src/**/*.jsx', './src/*.css', './public/index.html', './public/index.css', './public/global.css', './public/index.js', './public/App.js'],
+  content: ['./index.html', './src/App.js', './src/index.css', './src/**/*.tsx', './src/**/*.ts', './src/*.js', './src/**/*.jsx', './src/*.css', './public/index.html', './public/index.css', './public/index.js', './public/App.js'],
   theme: {
     screens: {
       'sm': {
@@ -57,5 +57,5 @@ module.exports = {
       }
     }
   },
-  plugins: [require('@tailwindcss/base'), require('@tailwindcss/components'), require('@tailwindcss/utilities')]
+  plugins: []
 };
