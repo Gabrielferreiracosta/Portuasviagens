@@ -2,7 +2,7 @@
   "name": "portuasviagens",
   "version": "1.1.0",
   "private": false,
-  "homepage": "https://gabrielferreiracosta.github.io/Portuasviagens/",
+  "homepage": "https://gabrielferreiracosta.github.io/Portuasviagens",
   "dependencies": {
     "@babel/runtime": "^7.20.1",
     "@testing-library/jest-dom": "^5.16.5",
