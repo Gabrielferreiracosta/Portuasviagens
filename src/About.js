@@ -3,14 +3,20 @@ import './index.css';
 import Home from "./Home";
 import { Link } from "react-router-dom";
 
+import minhaImagem from '../src/img/2913127-1.png';
+import mascoteCapa from '../src/img/mascote---logo-1.png';
+import iranFoto from '../src/img/foto_site-1.jpeg';
+import gabrielFoto from '../src/img/foto2_site-1.jpeg';
+
+
 function About() {
     return (
         <Home></Home>,
         <div className="justify-center flex">
         <div className="bg-center justify-center items-center w-[1440px] h-[2025px] relative overflow-hidden bg-[#202580]">
             <div className="bg-repeat">
-            <img alt="background" className="w-[1440px] h-[1097px] absolute left-[0px] top-[958px] opacity-50" src="./img/2913127-1.png" />
-            <img alt="background" className="w-[1440px] h-[1097px] absolute left-[0px] top-[0px] opacity-50" src="./img/2913127-1.png" />
+            <img alt="background" className="w-[1440px] h-[1097px] absolute left-[0px] top-[958px] opacity-50" src={minhaImagem} />
+            <img alt="background" className="w-[1440px] h-[1097px] absolute left-[0px] top-[0px] opacity-50" src={minhaImagem} />
             </div>
             <div className="w-[1440px] h-[60px] absolute left-px top-[1440px]"></div>
             {/* HEADER AND MENU*/}
@@ -30,7 +36,7 @@ function About() {
                     </div>
                     </div>
                     <div className="flex-grow-0 flex-shrink-0 w-[136px] h-[147px]">
-                    <img alt="Mascote-Portuasviagens" src="./img/mascote---logo-1.png" className="w-[136px] h-[147px] absolute left-[519.5px] top-[-0.5px] object-cover" />
+                    <img alt="Mascote-Portuasviagens" src={mascoteCapa} className="w-[136px] h-[147px] absolute left-[519.5px] top-[-0.5px] object-cover" />
                     </div>
                 </div>
                         {/* MENU */}
@@ -87,7 +93,7 @@ function About() {
             </div>
             </header>
        
-        <div className='flex items-center absolute top-[400px] gap-[60px] p-5 rounded-md bg-[#61b1fb]/50'>
+        <div className='flex items-center justify-center absolute left-[183px] top-[400px] gap-[60px] p-5 rounded-md bg-[#61b1fb]/50'>
             <div className='flex flex-col justify-center items-start flex-grow-0 flex-shrink-0 relative gap-[45px] px-5'>
                 <p className='flex-grow-0 flex-shrink-0 w-[585px] h-[29px] text-left text-white'>
                     <span className='flex-grow-0 flex-shrink-0 w-[585px] h-[29px] text-lg font-Anton text-left text-white'>
@@ -116,11 +122,10 @@ function About() {
                     <br />
                 </p>
             </div>
-            <img alt="Iran" src="./img/foto_site-1.jpeg" className='flex-grow-0 flex-shrink-0 w-[350px] h-[435.56px] object-cover' />
+            <img alt="Iran" src={iranFoto} className='flex-grow-0 flex-shrink-0 w-[350px] h-[435.56px] object-cover' />
         </div>,
-        <div>
-            <div className='flex items-center w-[1075px] absolute left-[183px] top-[970px] gap-[50px] py-5 rounded-md bg-[#61b1fb]/50'>
-                <img alt="Gabriel" src="./img/foto2_site-1.jpeg" className='flex-grow-0 flex-shrink-0 w-[350px] h-[437.69px] object-cover' />
+        <div className='flex items-center justify-center w-[1075px] absolute left-[183px] top-[970px] gap-[50px] py-5 rounded-md bg-[#61b1fb]/50'>
+            <img alt="Gabriel" src={gabrielFoto} className='flex-grow-0 flex-shrink-0 w-[350px] h-[437.69px] object-cover' />
                 <div className='flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 w-[538px] relative gap-[35px] pl-5 pr-[433px]'>
                 <h3 className='flex-grow-0 flex-shrink-0 w-[585px] h-[29px] text-lg font-Anton text-left text-white'>
                     Quem somos nós?
@@ -148,8 +153,8 @@ function About() {
                     Aproveita e acompanha a gente nas redes sociais e no Youtube!
                     </span>
                 </p>
-                </div>
-            </div>
+         </div>
+            
         </div>,
         <div className='flex justify-center items-center w-[1075px] h-[450px] absolute left-[185px] top-[1540px] gap-[50px] py-5 rounded-md bg-[#61b1fb]/50'>
             <div className='flex flex-col justify items-center flex-grow-0 flex-shrink-0 h-[350px] w-[522px] relative gap-10'>
