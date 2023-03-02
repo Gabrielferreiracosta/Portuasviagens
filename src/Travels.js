@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import minhaImagem from '../src/img/2913127-1.png';
+import mascoteCapa from '../src/img/mascote---logo-1.png';
  
+
 import "./index.css";
 
 
@@ -10,8 +13,8 @@ function Travels() {
     <div className="justify-center flex">
       <div className="bg-center flex justify-center items-center w-[1440px] h-[2025px] relative overflow-hidden bg-[#202580]">
         <div className="bg-repeat">
-          <img alt="background" className="w-[1440px] h-[1097px] absolute left-[0px] top-[958px] opacity-50" src="./img/2913127-1.png"/>
-          <img alt="background" className="w-[1440px] h-[1097px] absolute left-[0px] top-[0px] opacity-50" src="./img/2913127-1.png"/>
+          <img alt="background" className="w-[1440px] h-[1097px] absolute left-[0px] top-[958px] opacity-50" src={minhaImagem}/>
+          <img alt="background" className="w-[1440px] h-[1097px] absolute left-[0px] top-[0px] opacity-50" src={minhaImagem}/>
         </div>
         <div className="w-[1440px] h-[60px] absolute left-px top-[1440px]"></div>
         {/* HEADER AND MENU*/}
@@ -31,7 +34,7 @@ function Travels() {
                   </div>
                 </div>
                 <div className="flex-grow-0 flex-shrink-0 w-[136px] h-[147px]">
-                  <img alt="Mascote-Portuasviagens" src="./img/mascote---logo-1.png" className="w-[136px] h-[147px] absolute left-[519.5px] top-[-0.5px] object-cover" />
+                  <img alt="Mascote-Portuasviagens" src={mascoteCapa} className="w-[136px] h-[147px] absolute left-[519.5px] top-[-0.5px] object-cover" />
                 </div>
               </div>
                     {/* MENU */}

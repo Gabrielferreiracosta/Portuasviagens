@@ -60,31 +60,41 @@ function About() {
                         </svg>
                         </button>
                     </Link>
+                    <Link to="/tips" path="./Tips">
                     <button id="Dicas-btn" aria-label="dicas-btn"  className='flex justify-center items-center flex-grow-0 flex-shrink-0 w-[100px] h-[35px] relative overflow-hidden border-t-0 border-r-0 border-b-0 border-l-2 border-[#99b4fa]  hover:bg-cyan-200/50'>
                     <p className='flex-grow-0 flex-shrink-0 text-base font-regular text-center text-white'>
                         Dicas
                     </p>
                     </button>
+                    </Link>
+                    <Link to="/travels" path="./Travels">
                     <button id="Viagens-btn" aria-label="viagens-btn" className='flex justify-center items-center flex-grow-0 flex-shrink-0 w-[100px] h-[35px] relative border-t-0 border-r-0 border-b-0 border-l-2 border-[#99b4fa]  hover:bg-cyan-200/50'>
                     <p className='flex-grow-0 flex-shrink-0 text-base font-regular text-left text-white'>
                         Viagens
                     </p>
                     </button>
+                    </Link>
+                    <Link to="/contents" path="./Contents">
                     <button id="Conteudos-btn" aria-label="conteudos-btn"  className='flex justify-center items-center flex-grow-0 flex-shrink-0 w-[100px] h-[35px] relative border-t-0 border-r-0 border-b-0 border-l-2 border-[#99b4fa]  hover:bg-cyan-200/50'>
                     <p className='flex-grow-0 flex-shrink-0 text-base font-regular text-left text-white'>
                         Conteúdos
                     </p>
                     </button>
+                    </Link>
+                    <Link to="/projects" path="./Projects">
                     <button id="Projetos-btn" aria-label="projetos-btn"  className='flex justify-center items-center flex-grow-0 flex-shrink-0 w-[100px] h-[35px] relative border-t-0 border-r-0 border-b-0 border-l-2 border-[#99b4fa]  hover:bg-cyan-200/50'>
                     <p className='flex-grow-0 flex-shrink-0 text-base font-regular text-left text-white'>
                         Projetos
                     </p>
                     </button>
+                    </Link>
+                    <Link to="/about" path="./About">
                     <button id="Sobre-btn" aria-label="sobre-btn" className='flex justify-center items-center flex-grow-0 flex-shrink-0 w-[100px] h-[35px] relative border-t-0 border-r-0 border-b-0 border-l-2 border-[#99b4fa]  hover:bg-cyan-200/50'>
                     <p className="flex-grow-0 flex-shrink-0 text-base font-regular text-left text-white">
                         Sobre nós
                     </p>
                     </button>
+                    </Link>
                     <div >
                     <input className='flex justify-start items-center w-[235px] h-[35px] absolute left-[1100px] top-[180px] gap-5 px-5 py-2 bg-[#202580]/80 border border-[#99b4fa] flex-grow-0 flex-shrink-0 text-sm font-light text-center text-[#99b4fa]' type="search" placeholder="Pesquise aqui" />
                     </div>
