@@ -1,6 +1,5 @@
 import React from "react";
 import './index.css';
-import Home from "./Home";
 import { Link } from "react-router-dom";
 
 import minhaImagem from '../src/img/2913127-1.png';
@@ -11,7 +10,6 @@ import gabrielFoto from '../src/img/foto2_site-1.jpeg';
 
 function About() {
     return (
-        <Home></Home>,
         <div className="justify-center flex">
         <div className="bg-center justify-center items-center w-[1440px] h-[2025px] relative overflow-hidden bg-[#202580]">
             <div className="bg-repeat">
@@ -192,8 +190,8 @@ function About() {
             </div>
             </div>
         </div>
-    </div>
-    </div>
+        </div>
+        </div>
         
     
     )
