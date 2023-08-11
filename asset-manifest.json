@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portuasviagens/static/css/main.156e987f.css",
-    "main.js": "/Portuasviagens/static/js/main.1f062487.js",
+    "main.js": "/Portuasviagens/static/js/main.40159117.js",
     "static/media/viagemcabodaroca.jpg": "/Portuasviagens/static/media/viagemcabodaroca.d5f619b4f95125244951.jpg",
     "static/media/Sem Título-2.png": "/Portuasviagens/static/media/Sem Título-2.a6f988ea75c84125811c.png",
     "static/media/foto2_site-1.jpeg": "/Portuasviagens/static/media/foto2_site-1.cf1880757af7465491bc.jpeg",
@@ -11,10 +11,10 @@
     "static/media/NovaMedina.png": "/Portuasviagens/static/media/NovaMedina.02aa94b773151f48306b.png",
     "index.html": "/Portuasviagens/index.html",
     "main.156e987f.css.map": "/Portuasviagens/static/css/main.156e987f.css.map",
-    "main.1f062487.js.map": "/Portuasviagens/static/js/main.1f062487.js.map"
+    "main.40159117.js.map": "/Portuasviagens/static/js/main.40159117.js.map"
   },
   "entrypoints": [
     "static/css/main.156e987f.css",
-    "static/js/main.1f062487.js"
+    "static/js/main.40159117.js"
   ]
 }
