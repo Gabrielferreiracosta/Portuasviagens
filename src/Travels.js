@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import minhaImagem from '../src/img/2913127-1.png';
 import mascoteCapa from '../src/img/mascote---logo-1.png';
- 
 
 import "./index.css";
 

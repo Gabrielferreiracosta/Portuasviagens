@@ -146,7 +146,7 @@ function About() {
                     </span>
                     <br /><br />
                     <span className='flex-grow-0 flex-shrink-0 w-[469px] text-base font-roboto text-left text-white'>
-                    Sobre viagens? Até agora conto com 6 países, bem longe do meu amigo Iran. Brincadeiras a
+                    Sobre viagens? Até agora conto com 7 países, bem longe do meu amigo Iran. Brincadeiras a
                     parte, a vida é um sopro e como muitos dizem por isso devemos aproveitar para conhecer ao máximo. Então embarque com a gente nessa aventura e vamos desbravar
                     juntos esse mundo por meio dos nossos canais.
                     </span>

@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 import minhaImagem from '../src/img/2913127-1.png';
 import mascoteCapa from '../src/img/mascote---logo-1.png';
-
+import NovaMedina from '../src/img/NovaMedina.png';
 
 import "./index.css";
 
 
-function Tips() {
+function Agadir() {
   return (
     <div className="justify-center flex">
       <div className="bg-center flex justify-center items-center w-[1440px] h-[2025px] relative overflow-hidden bg-[#202580]">
@@ -101,9 +101,42 @@ function Tips() {
             </div>
           </div>
         </header>
+        <div className="absolute inline-flex left-10 right-10 top-[400px] gap-[10px]">
+          <div className="inline-flex flex-col items-center m-[10px]">
+            <p className="text-xl font-bold text-white">Meu amigo, você já ouviu falar de Agadir(Marrocos)?<br/></p>
+            <p className="font-bold text-white">
+              <br/><br/>
+              Essa cidade tem uma história incrível! Em 1960, um terremoto devastador destruiu a cidade, deixando-a em ruínas. Mas os moradores de Agadir não desistiram! Eles reconstruíram a cidade do zero, transformando-a em uma das mais modernas do Marrocos, com praias deslumbrantes, hotéis luxuosos e uma vida noturna agitada. Mas a cidade não esqueceu sua cultura e tradições.
+              <br/><br/>
+              Agadir é um destino único, 
+              <br/>
+              que combina tradição, modernidade e muita diversão. Agadir é uma cidade costeira no Marrocos que oferece atrações diversas, desde a cultura local até as belas praias. Se você tem apenas três dias para explorar a cidade, confira o nosso roteiro de viagem abaixo para te ajudar sobre o que fazer em Agadir Marrocos.
+              <br/><br/>
+            </p>
+          </div>
+          <img className='' src={NovaMedina}></img>
+        </div>
         
-      </div>
-      
+        <div>
+        <p className="absolute inline-flex  justify-center left-10 right-10 text-xl font-bold text-white">#Instagram<br/></p>
+        
+        </div>
+        <div className="absolute inline-flex left-10 right-10 top-[1200px] gap-[10px]">
+        <img className='' src={NovaMedina}></img>
+          <div className="inline-flex flex-col items-center m-[10px]">
+            <p className="text-xl font-bold text-white">Meu amigo, você já ouviu falar de Agadir(Marrocos)?<br/></p>
+            <p className="font-bold text-white">
+              <br/><br/>
+              Essa cidade tem uma história incrível! Em 1960, um terremoto devastador destruiu a cidade, deixando-a em ruínas. Mas os moradores de Agadir não desistiram! Eles reconstruíram a cidade do zero, transformando-a em uma das mais modernas do Marrocos, com praias deslumbrantes, hotéis luxuosos e uma vida noturna agitada. Mas a cidade não esqueceu sua cultura e tradições.
+              <br/><br/>
+              Agadir é um destino único, 
+              <br/>
+              que combina tradição, modernidade e muita diversão. Agadir é uma cidade costeira no Marrocos que oferece atrações diversas, desde a cultura local até as belas praias. Se você tem apenas três dias para explorar a cidade, confira o nosso roteiro de viagem abaixo para te ajudar sobre o que fazer em Agadir Marrocos.
+              <br/><br/>
+              </p>
+          </div>         
+        </div>
+      </div>  
     </div>
      
     
@@ -111,7 +144,7 @@ function Tips() {
   )
 }
 
-export default Tips;
+export default Agadir;
 
 
 
